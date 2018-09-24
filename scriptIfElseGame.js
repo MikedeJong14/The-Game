@@ -91,4 +91,7 @@ function victory() {
 if (questionNumber == 0) {
 	alert('You are an adventurer in a world full of monsters. Your party consists of 3 other friends who all picked you as their leader. you have a Healer, an Assasin, a Tank and a Mage (you!). It is your job to defeat the final boss and win! (without getting anyone killed ofcourse)');
 	Question(1);
+	if (questionNumber > 8) {
+		victory();
+	}
 }
